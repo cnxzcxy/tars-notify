@@ -1,7 +1,6 @@
 {
-  "name": "cnxzcxy/tars-notify",
+  "name": "phptars/tars-notify",
   "description": "tars nofity",
-  "minimum-stability": "dev",
   "version":"0.0.1",
   "authors": [
     {
