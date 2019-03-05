@@ -1,6 +1,6 @@
 <?php
 
-namespace Tars\nofity\classes;
+namespace Tars\notify\classes;
 
 class NotifyItem extends \TARS_Struct {
 	const STIMESTAMP = 1;

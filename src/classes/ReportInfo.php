@@ -1,6 +1,6 @@
 <?php
 
-namespace Tars\nofity\classes;
+namespace Tars\notify\classes;
 
 class ReportInfo extends \TARS_Struct {
 	const ETYPE = 1;

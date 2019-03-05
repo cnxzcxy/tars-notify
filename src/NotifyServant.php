@@ -6,11 +6,11 @@
  * Time: 08:03
  */
 
-namespace Tars\nofity;
+namespace Tars\notify;
 
-use Tars\nofity\classes\NotifyKey;
-use Tars\nofity\classes\NotifyInfo;
-use Tars\nofity\classes\ReportInfo;
+use Tars\notify\classes\NotifyKey;
+use Tars\notify\classes\NotifyInfo;
+use Tars\notify\classes\ReportInfo;
 
 use Tars\client\CommunicatorConfig;
 use Tars\client\Communicator;
@@ -73,15 +73,15 @@ class NotifyServant {
 
     }
 	/**
-	 * @param struct $stKey \Tars/nofity\gc\memberrpc\obj\classes\NotifyKey
-	 * @param struct $stInfo \Tars/nofity\gc\memberrpc\obj\classes\NotifyInfo =out=
+	 * @param struct $stKey \Tars/notify\gc\memberrpc\obj\classes\NotifyKey
+	 * @param struct $stInfo \Tars/notify\gc\memberrpc\obj\classes\NotifyInfo =out=
 	 * @return int
 	 */
 	public function getNotifyInfo(NotifyKey $stKey,NotifyInfo &$stInfo){
 
     }
 	/**
-	 * @param struct $info \Tars/nofity\gc\memberrpc\obj\classes\ReportInfo
+	 * @param struct $info \Tars/notify\gc\memberrpc\obj\classes\ReportInfo
 	 * @return void
 	 */
 	public function reportNotifyInfo(ReportInfo $info){

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tars\nofity\classes;
+namespace Tars\notify\classes;
 
 class NotifyInfo extends \TARS_Struct {
 	const NEXTPAGE = 1;

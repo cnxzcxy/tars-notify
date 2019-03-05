@@ -1,6 +1,6 @@
 <?php
 
-namespace Tars\nofity\classes;
+namespace Tars\notify\classes;
 
 class NotifyKey extends \TARS_Struct {
 	const NAME = 1;
