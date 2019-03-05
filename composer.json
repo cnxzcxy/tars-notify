@@ -1,0 +1,21 @@
+{
+  "name": "cnxzcxy/tars-notify",
+  "description": "tars nofity",
+  "minimum-stability": "dev",
+  "version":"0.0.1",
+  "authors": [
+    {
+      "name": "cnxzcxy",
+      "email": "cnxzcxy@gmail.com"
+    }
+  ],
+  "require":{
+    "php": ">=5.5",
+    "phptars/tars-client": "~0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tars\\notify\\": "src/"
+    }
+  }
+}
